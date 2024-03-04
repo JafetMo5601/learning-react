@@ -10,6 +10,20 @@ export function calculateInvestmentResults({
   expectedReturn,
   duration,
 }) {
+  console.log("-----------------------");
+  console.log(initialInvestment);
+  console.log(typeof(initialInvestment));
+
+  console.log(annualInvestment);
+  console.log(typeof(annualInvestment));
+
+  console.log(expectedReturn);
+  console.log(typeof(expectedReturn));
+
+  console.log(duration);
+  console.log(typeof(duration));
+  console.log("-----------------------");
+
   const annualData = [];
   let investmentValue = initialInvestment;
 
